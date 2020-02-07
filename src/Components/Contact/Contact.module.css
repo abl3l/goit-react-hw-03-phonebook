@@ -1,17 +1,16 @@
-.contact{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 270px;
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
 }
 
-.name{
+.name {
   width: 50%;
 }
 
-.number{
+.number {
   width: 30%;
-  
 }
 
 .btn {
@@ -24,8 +23,11 @@
   background-color: white;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #0366d6;
   border: 2px solid #0366d6;
   cursor: pointer;
+}
+.btn:focus {
+  outline: none;
 }
