@@ -64,6 +64,9 @@
       }
     ]
   },
+  "import/extensions": {
+    "jsx": "always"
+  },
   "globals": {
     "window": true,
     "document": true,

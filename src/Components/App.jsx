@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import shortid from 'shortid';
-import PhoneBook from './Phonebook/Phonebook';
-import ContactList from './ContactList/ContactList';
-import ContactFilter from './ContackFilter/ContactFilter';
+import PhoneBook from './Phonebook/Phonebook.jsx';
+import ContactList from './ContactList/ContactList.jsx';
+import ContactFilter from './ContackFilter/ContactFilter.jsx';
 
 const filterContacts = (contacts, filter) => {
   return contacts.filter(el =>
