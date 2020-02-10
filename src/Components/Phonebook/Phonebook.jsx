@@ -47,7 +47,7 @@ export default class PhoneBook extends Component {
           <input
             className={styles.input}
             name="number"
-            type="tel"
+            type="number"
             value={number}
             onChange={this.handleChange}
           ></input>
