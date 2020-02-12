@@ -1,4 +1,5 @@
 import React from 'react';
+import T from 'prop-types';
 import styles from './ContactFilter.module.css';
 
 const ContactFilter = ({ value, onChangeFilter }) => (
@@ -14,5 +15,10 @@ const ContactFilter = ({ value, onChangeFilter }) => (
     </label>{' '}
   </form>
 );
+
+ContactFilter.propTypes = {
+  value: T.string,
+  onChangeFilter: T.func.isRequired,
+};
 
 export default ContactFilter;
